@@ -1,90 +1,94 @@
-.about
-{
+.Container {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 100vh;
+}
+.Container-main {
+  flex: 1;
+  overflow: hidden;
+}
+.Header {
+  border-bottom: 1px solid black;
+}
+
+.firstname {
+  position: relative;
+  top: 30%;
+}
+
+.LinkBar {
   display: flex;
   justify-content: flex-end;
-  margin-top: -10px !important;
-  padding-right: 20px;
-  flex-direction: row;
-  font-family: "Lato light", sans-serif;
-  color: black;
-  text-decoration: none;
+
+  padding-left: 0;
+  list-style: none;
+
+  margin-top: -1.5em;
+  margin-right: -15px;
+}
+.LinkBar-link {
+  margin: 0 1em;
 }
 
-.about:hover
-{
-  text-decoration: none;
+._1 {
+  grid-area: _1;
+}
+._2 {
+  grid-area: _2;
+}
+._3 {
+  grid-area: _3;
+}
+.Main-content {
+  display: grid;
+  grid-template-areas:
+    '_1'
+    '_2'
+    '_3';
+  grid-row-gap: 1em;
+
+  margin: 0;
+  height: 100%;
+
+  padding-left: 0;
+  list-style: none;
+}
+.Main-item {
+  background-color: gray;
+  opacity: 0.5;
 }
 
-.row
-{
-  margin-top: 20px;
-}
+@media (min-width: 768px) {
+  ._1 {
+    grid-area: _1;
 
-.rectangle1:hover
-{
-  background-color: white;
-}
+    position: relative;
+    bottom: -60%;
+    right: -20%;
+    z-index: 1;
+  }
+  ._2 {
+    grid-area: _2;
 
-.rectangle2
-{
-  margin-top: 100px;
+    position: relative;
+    z-index: 2;
+  }
+  ._3 {
+    grid-area: _3;
 
-}
-
-@media screen and (max-width: 795px)
-{
-.about
-{
-    color: black;
-    display: flex;
-    justify-content: flex-END;
-    padding-top: 5px;
-    padding-right: 15px;
-}
-
-@media screen and (max-width: 320px)
-{
-.about
-{
-  color: black;
-  display: flex;
-  justify-content: flex-start;
-  padding-top: 10px;
-  padding-left: 8px;
-  font-size: 12px;
-}
-
-.row
-{
-  display: flex;
-  justify-content: center;
-  margin-left: 35px !important;
-}
-
-.rectangle1
-{
-  margin-top: 10px;
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
-
-}
-
-.rectangle2
-{
-  margin-top: 10px;
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
-
-}
-
-.rectangle3
-{
-  margin-top: 10px;
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
-  
-}
+    position: relative;
+    top: -60%;
+    left: -20%;
+    z-index: 3;
+  }
+  .Main-content {
+    display: grid;
+    grid-template-areas:
+      '_1  .  .'
+      ' . _2  .'
+      ' .  . _3';
+  }
 }
