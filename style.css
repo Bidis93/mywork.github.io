@@ -10,13 +10,22 @@
   flex: 1;
   overflow: hidden;
 }
+
 .Header {
-  border-bottom: 1px solid black;
+  height: 10%;
 }
 
-.firstname {
+.Firstname {
+  font-family:"Lato Hairline", sans-serif;
   position: relative;
-  top: 30%;
+  top: 5vh;
+  left: 20vh;
+}
+
+hr {
+  border-bottom: 0.1px solid grey;
+  width: 100%;
+  opacity: 0;
 }
 
 .LinkBar {
@@ -26,11 +35,28 @@
   padding-left: 0;
   list-style: none;
 
-  margin-top: -1.5em;
-  margin-right: -15px;
+  margin-top: 1em;
+  margin-right: -12px;
 }
+
 .LinkBar-link {
   margin: 0 1em;
+}
+
+#about {
+  position: relative;
+  top:20px;
+
+  font-family:"Lato Hairline", sans-serif;
+  text-decoration: none;
+}
+
+#contact {
+  position: relative;
+  top:20px;
+
+  font-family:"Lato Hairline", sans-serif;
+  text-decoration: none;
 }
 
 ._1 {
@@ -61,7 +87,52 @@
   opacity: 0.5;
 }
 
+#Logos {
+  font-family: sans-serif, "Lato light";
+  font-size: 200%;
+  color: black;
+  text-decoration: none;
+  top: 135px;
+  right: 1.7px;
+  position: relative;
+}
+
+#Illustrations {
+  position: relative;
+  font-family: sans-serif, "Lato light";
+  font-size: 200%;
+  color: black;
+  text-decoration: none;
+  top: 134px;
+  right: 2px;
+  position: relative;
+}
+
+#Affiches {
+  position: relative;
+  font-family: sans-serif, "Lato light";
+  font-size: 200%;
+  color: black;
+  text-decoration: none;
+  top: 135px;
+  right: -1px;
+  position: relative;
+
+}
+
+.Footer {
+  border-bottom: solid 1px black;
+}
+
 @media (min-width: 768px) {
+
+  .Firstname {
+    font-family:"Lato Hairline", sans-serif;
+    position: relative;
+    top: 0;
+    left: 9vh
+  }
+
   ._1 {
     grid-area: _1;
 
@@ -84,6 +155,41 @@
     left: -20%;
     z-index: 3;
   }
+
+  hr {
+    border-bottom: 0.1px solid grey;
+    width: 86%;
+    opacity: 0.5;
+  }
+
+  .LinkBar {
+    font-family: "Lato Hairline", sans-serif;
+    display: flex;
+    justify-content: flex-end;
+
+    padding-left: 0;
+    list-style: none;
+
+    margin-top: -1em;
+    margin-right: 75px;
+  }
+
+  #about {
+    position: relative;
+    top:45px;
+
+    font-family:"Lato Hairline", sans-serif;
+    text-decoration: none;
+  }
+
+  #contact {
+    position: relative;
+    top:45px;
+
+    font-family:"Lato Hairline", sans-serif;
+    text-decoration: none;
+  }
+
   .Main-content {
     display: grid;
     grid-template-areas:
@@ -91,4 +197,49 @@
       ' . _2  .'
       ' .  . _3';
   }
+
+#Logos {
+    position: relative;
+    font-family: "Lato", sans-serif;
+    font-size: 200%;
+    color: black;
+    text-decoration: none;
+    top: 139px;
+    right: 17px;
+
+  }
+
+  #Logos:hover {
+    color: white;
+    font-size: 200%;
+  }
+
+ #Illustrations {
+   position: relative;
+   font-family: "lato", sans-serif;
+   font-size: 200%;
+   color: black;
+   text-decoration: none;
+   top: 139px;
+   right: 12px;
+ }
+
+ #Illustrations:hover {
+   color: white;
+   font-size: 200%;
+ }
+
+ #Affiches {
+   position: relative;
+   font-family: "lato", sans-serif;
+   font-size: 200%;
+   color: black;
+   text-decoration: none;
+   top: 139px;
+   right: 25px;
+ }
+
+ #Affiches:hover {
+   color: white;
+   font-size: 200%;
 }
