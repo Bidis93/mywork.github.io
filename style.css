@@ -1,0 +1,90 @@
+.about
+{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -10px !important;
+  padding-right: 20px;
+  flex-direction: row;
+  font-family: "Lato light", sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.about:hover
+{
+  text-decoration: none;
+}
+
+.row
+{
+  margin-top: 20px;
+}
+
+.rectangle1:hover
+{
+  background-color: white;
+}
+
+.rectangle2
+{
+  margin-top: 100px;
+
+}
+
+@media screen and (max-width: 795px)
+{
+.about
+{
+    color: black;
+    display: flex;
+    justify-content: flex-END;
+    padding-top: 5px;
+    padding-right: 15px;
+}
+
+@media screen and (max-width: 320px)
+{
+.about
+{
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 10px;
+  padding-left: 8px;
+  font-size: 12px;
+}
+
+.row
+{
+  display: flex;
+  justify-content: center;
+  margin-left: 35px !important;
+}
+
+.rectangle1
+{
+  margin-top: 10px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.rectangle2
+{
+  margin-top: 10px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.rectangle3
+{
+  margin-top: 10px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+}
