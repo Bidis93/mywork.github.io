@@ -1,3 +1,5 @@
+/*index.html*/
+
 .Container {
   display: flex;
   flex-direction: column;
@@ -23,9 +25,11 @@
 }
 
 hr {
+  position: relative;
+  bottom: 40px;
   border-bottom: 0.1px solid grey;
-  width: 100%;
-  opacity: 0;
+  width: 50%;
+  opacity: 0.2;
 }
 
 .LinkBar {
@@ -61,12 +65,28 @@ hr {
 
 ._1 {
   grid-area: _1;
+  background-image: url(asset/flotoju.jpg);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
 }
 ._2 {
   grid-area: _2;
+  background-image: url(asset/portrait-peinture.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
+
 }
 ._3 {
   grid-area: _3;
+  background-image: url(asset/place-des-vosges.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
 }
 .Main-content {
   display: grid;
@@ -83,17 +103,16 @@ hr {
   list-style: none;
 }
 .Main-item {
-  background-color: gray;
   opacity: 0.5;
 }
 
 #Logos {
   font-family: sans-serif, "Lato light";
   font-size: 200%;
-  color: black;
+  color: #94e0f7;
   text-decoration: none;
-  top: 129px;
-  right: 1.7px;
+  top: 130px;
+  right: 2px;
   position: relative;
 }
 
@@ -105,10 +124,10 @@ hr {
   position: relative;
   font-family: sans-serif, "Lato light";
   font-size: 200%;
-  color: black;
+  color: #b4e1e0;
   text-decoration: none;
   top: 130px;
-  right: 2px;
+  right: 2.4px;
   position: relative;
 }
 
@@ -116,12 +135,11 @@ hr {
   color: white;
 }
 
-
 #Affiches {
   position: relative;
   font-family: sans-serif, "Lato light";
   font-size: 200%;
-  color: black;
+  color: #cd94ad;
   text-decoration: none;
   top: 129px;
   right: -1px;
@@ -132,7 +150,6 @@ hr {
 #Affiches:hover {
   color: white;
 }
-
 
 .Footer {
   border-bottom: 5px solid WHITE;
@@ -148,8 +165,28 @@ hr {
     left: 9vh
   }
 
+  .Mywork {
+    display: flex;
+    justify-content: center;
+
+    font-family: "lato Hairline", serif;
+    font-size: 200%;
+
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    opacity: 0.3;
+  }
+
+
   ._1 {
     grid-area: _1;
+    background-image: url(asset/flotoju.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
 
     position: relative;
     bottom: -60%;
@@ -158,12 +195,20 @@ hr {
   }
   ._2 {
     grid-area: _2;
+    background-image: url(asset/portrait-peinture.jpg);
+    background-size: 110%;
+    background-position: center;
+    opacity: 0.5;
 
     position: relative;
     z-index: 2;
   }
   ._3 {
     grid-area: _3;
+    background-image: url(asset/place-des-vosges.jpg);
+    background-size: 100%;
+    background-position: center;
+    opacity: 0.5;
 
     position: relative;
     top: -60%;
@@ -172,9 +217,11 @@ hr {
   }
 
   hr {
+    position: relative;
+    top: 1px;
     border-bottom: 0.1px solid grey;
     width: 86%;
-    opacity: 0.5;
+    opacity: 0.2;
   }
 
   .LinkBar {
@@ -217,7 +264,7 @@ hr {
     position: relative;
     font-family: "Lato", sans-serif;
     font-size: 200%;
-    color: black;
+    color: #94e0f7;
     text-decoration: none;
     top: 134px;
     right: 17px;
@@ -225,22 +272,21 @@ hr {
   }
 
   #Logos:hover {
-    color: white;
-    font-size: 200%;
+    color: #ffff;
   }
 
  #Illustrations {
    position: relative;
    font-family: "lato", sans-serif;
    font-size: 200%;
-   color: black;
+   color: #b4e1e0;
    text-decoration: none;
    top: 134px;
    right: 12px;
  }
 
  #Illustrations:hover {
-   color: white;
+   color: #ffff;
    font-size: 200%;
  }
 
@@ -248,13 +294,12 @@ hr {
    position: relative;
    font-family: "lato", sans-serif;
    font-size: 200%;
-   color: black;
+   color: #cd94ad;
    text-decoration: none;
    top: 134px;
    right: 25px;
  }
 
  #Affiches:hover {
-   color: white;
-   font-size: 200%;
+   color: #ffff;
 }

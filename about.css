@@ -1,0 +1,143 @@
+
+.Container {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 100vh;
+}
+.Container-main {
+  flex: 1;
+  overflow: hidden;
+}
+
+.Header {
+  height: 10%;
+}
+
+.Firstname {
+  font-family:"Lato Hairline", sans-serif;
+  position: relative;
+  top: 5vh;
+  left: 20vh;
+}
+
+hr {
+  position: relative;
+  bottom: 40px;
+  border-bottom: 0.1px solid grey;
+  width: 50%;
+  opacity: 0.2;
+}
+
+.LinkBar {
+  display: flex;
+  justify-content: flex-end;
+
+  padding-left: 0;
+  list-style: none;
+
+  margin-top: 1em;
+  margin-right: -12px;
+}
+
+.LinkBar-link {
+  margin: 0 1em;
+}
+
+#about {
+  position: relative;
+  top:20px;
+
+  font-family:"Lato Hairline", sans-serif;
+  text-decoration: none;
+}
+
+#contact {
+  position: relative;
+  top:20px;
+
+  font-family:"Lato Hairline", sans-serif;
+  text-decoration: none;
+}
+
+.Main-bio {
+  display: flex;
+  justify-content: center;
+  font-family:"Lato Hairline", sans-serif;
+  font-size: 200%;
+  opacity: 0.7;
+}
+
+.Title {
+  position: relative;
+  top: 11.5%;
+  font-family: "Lato light", sans-serif;
+  font-size: 170%;
+  opacity: 0.2;
+
+}
+
+@media (min-width: 768px) {
+  .Firstname {
+    font-family:"Lato Hairline", sans-serif;
+    position: relative;
+    top: 0;
+    left: 9vh
+  }
+  hr {
+    position: relative;
+    top: 1px;
+    border-bottom: 0.1px solid grey;
+    width: 86%;
+    opacity: 0.2;
+  }
+
+  .LinkBar {
+    font-family: "Lato Hairline", sans-serif;
+    display: flex;
+    justify-content: flex-end;
+
+    padding-left: 0;
+    list-style: none;
+
+    margin-top: -1em;
+    margin-right: 75px;
+  }
+
+  #about {
+    position: relative;
+    top:45px;
+
+    font-family:"Lato Hairline", sans-serif;
+    text-decoration: none;
+  }
+
+  #contact {
+    position: relative;
+    top:45px;
+
+    font-family:"Lato Hairline", sans-serif;
+    text-decoration: none;
+  }
+
+  .Main-bio {
+    position: relative;
+    left: -150px;
+    font-family:"lato Hairline", sans-serif;
+    font-size: 300%
+  }
+
+  .CV {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    top: 15vh;
+    left: 80%;
+    font-family: "Lato Hairline", sans-serif;
+    font-size: 150%;
+
+
+  }
+}

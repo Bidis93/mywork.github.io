@@ -1,0 +1,171 @@
+.Container {
+  position: flex;
+  flex-direction: column;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 100vh;
+}
+
+.Container-main {
+  flex: 1;
+  overflow: hidden;
+}
+
+.Header {
+  height: 10%;
+}
+
+.Firstname {
+  font-family:"Lato Hairline", sans-serif;
+  position: relative;
+  top: 5vh;
+  left: 20vh;
+}
+
+hr {
+  position: relative;
+  bottom: 40px;
+  border-bottom: 0.1px solid grey;
+  width: 50%;
+  opacity: 0.2;
+}
+
+.LinkBar {
+  display: flex;
+  justify-content: flex-end;
+
+  padding-left: 0;
+  list-style: none;
+
+  margin-top: 1em;
+  margin-right: -12px;
+}
+
+.LinkBar-link {
+  margin: 0 1em;
+}
+
+#about {
+  position: relative;
+  top:20px;
+
+  font-family:"Lato Hairline", sans-serif;
+  text-decoration: none;
+}
+
+#contact {
+  position: relative;
+  top:20px;
+
+  font-family:"Lato Hairline", sans-serif;
+  text-decoration: none;
+}
+
+._1 {
+  grid-area: _1;
+  background-image: url(asset/flotoju.jpg);
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
+}
+._2 {
+  grid-area: _2;
+  background-image: url(asset/portrait-peinture.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
+}
+._3 {
+  grid-area: _3;
+  background-image: url(asset/place-des-vosges.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
+}
+
+._4 {
+  grid-area: _3;
+  background-image: url(asset/place-des-vosges.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
+}
+
+Main-content {
+  display: grid;
+  grid-template-areas:
+    '_1'
+    '_2'
+    '_3';
+  grid-row-gap: 1em;
+
+  margin: 0;
+  height: 100%;
+
+  padding-left: 0;
+  list-style: none;
+}
+
+@media (min-width: 768px) {
+  .Firstname {
+    font-family:"Lato Hairline", sans-serif;
+    position: relative;
+    top: 0;
+    left: 9vh
+  }
+  hr {
+    position: relative;
+    top: 1px;
+    border-bottom: 0.1px solid grey;
+    width: 86%;
+    opacity: 0.2;
+  }
+
+  .LinkBar {
+    font-family: "Lato Hairline", sans-serif;
+    display: flex;
+    justify-content: flex-end;
+
+    padding-left: 0;
+    list-style: none;
+
+    margin-top: -1em;
+    margin-right: 75px;
+  }
+
+  #about {
+    position: relative;
+    top:45px;
+
+    font-family:"Lato Hairline", sans-serif;
+    text-decoration: none;
+  }
+
+  #contact {
+    position: relative;
+    top:45px;
+
+    font-family:"Lato Hairline", sans-serif;
+    text-decoration: none;
+  }
+
+  .Main-bio {
+    position: relative;
+    left: -150px;
+    font-family:"lato Hairline", sans-serif;
+    font-size: 300%
+  }
+
+  .Title {
+    display: flex;
+    justify-content: flex-start;
+    top: 15%;
+    padding-left: 2%;
+    font-family: "Lato light", sans-serif;
+    left: 10vh;
+  }
+}
