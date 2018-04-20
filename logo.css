@@ -45,6 +45,22 @@ hr {
   margin: 0 1em;
 }
 
+.LinkBar-down {
+
+  display: flex;
+  justify-content: flex-end;
+
+  padding-left: 0;
+  list-style: none;
+
+  margin-top: 10em;
+  margin-right: -12px;
+}
+
+.LinkBar-link-down {
+  margin: 0 3em;
+}
+
 #about {
   position: relative;
   top:20px;
@@ -57,6 +73,22 @@ hr {
 #contact {
   position: relative;
   top:20px;
+
+  font-family:"Lato Hairline", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+#redirection-illus{
+  position: relative;
+
+  font-family:"Lato Hairline", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+#redirection-affiches {
+  position: relative;
 
   font-family:"Lato Hairline", sans-serif;
   text-decoration: none;
@@ -227,6 +259,19 @@ hr {
     margin-right: 75px;
   }
 
+  .LinkBar-down {
+
+    display: flex;
+    justify-content: flex-end;
+
+    padding-left: 0;
+    list-style: none;
+
+    margin-top: 0.5em;
+    margin-left: :
+     50px;
+  }
+
   #about {
     position: relative;
     top:45px;
@@ -239,6 +284,24 @@ hr {
   #contact {
     position: relative;
     top:45px;
+
+    font-family:"Lato Hairline", sans-serif;
+    text-decoration: none;
+    color: black;
+  }
+
+  #redirection-illus {
+    position: relative;
+    left: -850px;
+
+    font-family:"Lato Hairline", sans-serif;
+    text-decoration: none;
+    color: black;
+  }
+
+  #redirection-affiches {
+    position: relative;
+    right: 50px;
 
     font-family:"Lato Hairline", sans-serif;
     text-decoration: none;
