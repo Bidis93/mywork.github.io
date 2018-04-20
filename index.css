@@ -53,6 +53,7 @@ hr {
 
   font-family:"Lato Hairline", sans-serif;
   text-decoration: none;
+  color: black;
 }
 
 #contact {
@@ -61,6 +62,8 @@ hr {
 
   font-family:"Lato Hairline", sans-serif;
   text-decoration: none;
+  color: black;
+
 }
 
 ._1 {
@@ -242,6 +245,7 @@ hr {
 
     font-family:"Lato Hairline", sans-serif;
     text-decoration: none;
+    color: black;
   }
 
   #contact {
@@ -250,6 +254,7 @@ hr {
 
     font-family:"Lato Hairline", sans-serif;
     text-decoration: none;
+    color: black;
   }
 
   .Main-content {

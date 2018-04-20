@@ -51,6 +51,7 @@ hr {
 
   font-family:"Lato Hairline", sans-serif;
   text-decoration: none;
+  color: black;
 }
 
 #contact {
@@ -59,6 +60,7 @@ hr {
 
   font-family:"Lato Hairline", sans-serif;
   text-decoration: none;
+  color: black;
 }
 
 ._1 {
@@ -193,6 +195,7 @@ hr {
 
     font-family:"Lato Hairline", sans-serif;
     text-decoration: none;
+    color: black;
   }
 
   #contact {
@@ -201,11 +204,36 @@ hr {
 
     font-family:"Lato Hairline", sans-serif;
     text-decoration: none;
+    color: black;
   }
 
   #carouselExampleControls {
     position: relative;
-    top: 8vh;
+    top: 4vh;
     left: 25%;
     width: 50%;
+  }
+
+  #description0 {
+    font-family: "lato Hairline", sans-serif;
+    opacity: 0.5;
+  }
+
+  #description1 {
+    font-family: "lato Hairline", sans-serif;
+    opacity: 0.5;
+  }
+
+  #description2 {
+    display: flex;
+    justify-content: center;
+    font-family: "lato Hairline", sans-serif;
+    opacity: 0.5;
+  }
+
+  #description3 {
+    display: flex;
+    justify-content: center;
+    font-family: "lato Hairline", sans-serif;
+    opacity: 0.5;
   }
