@@ -125,6 +125,44 @@ hr {
   top:-50%;
 }
 
+#carouselExampleControls {
+  position: relative;
+  top: 17vh;
+  left: 15%;
+  width: 70%;
+}
+
+#description0 {
+  font-family: "lato Hairline", sans-serif;
+  opacity: 0.5;
+}
+
+#description1 {
+  font-family: "lato Hairline", sans-serif;
+  opacity: 0.5;
+}
+
+#description2 {
+  display: flex;
+  justify-content: center;
+  font-family: "lato Hairline", sans-serif;
+  opacity: 0.5;
+}
+
+#description3 {
+  display: flex;
+  justify-content: center;
+  font-family: "lato Hairline", sans-serif;
+  opacity: 0.5;
+}
+
+#description4 {
+  display: flex;
+  justify-content: center;
+  font-family: "lato Hairline", sans-serif;
+  opacity: 0.5;
+}
+
 @media (min-width: 768px) {
   .Firstname {
     font-family:"Lato Hairline", sans-serif;
@@ -232,6 +270,13 @@ hr {
   }
 
   #description3 {
+    display: flex;
+    justify-content: center;
+    font-family: "lato Hairline", sans-serif;
+    opacity: 0.5;
+  }
+
+  #description4 {
     display: flex;
     justify-content: center;
     font-family: "lato Hairline", sans-serif;
