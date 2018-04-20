@@ -253,15 +253,11 @@ hr {
   }
 
   #description0 {
-    display: flex;
-    justify-content: center;
     font-family: "lato Hairline", sans-serif;
     opacity: 0.5;
   }
 
   #description1 {
-    display: flex;
-    justify-content: center;
     font-family: "lato Hairline", sans-serif;
     opacity: 0.5;
   }
