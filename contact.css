@@ -52,6 +52,7 @@ hr {
 
   font-family:"Lato Hairline", sans-serif;
   text-decoration: none;
+  color: black;
 }
 
 #contact {
@@ -60,32 +61,19 @@ hr {
 
   font-family:"Lato Hairline", sans-serif;
   text-decoration: none;
-}
-
-.Main-bio {
-  display: flex;
-  justify-content: center;
-  font-family:"Lato Hairline", sans-serif;
-  font-size: 200%;
-  opacity: 0.7;
-}
-
-.Title {
-  position: relative;
-  top: 11.5%;
-  font-family: "Lato light", sans-serif;
-  font-size: 170%;
-  opacity: 0.2;
+  color: black;
 
 }
 
 @media (min-width: 768px) {
+
   .Firstname {
     font-family:"Lato Hairline", sans-serif;
     position: relative;
     top: 0;
     left: 9vh
   }
+
   hr {
     position: relative;
     top: 1px;
@@ -112,6 +100,7 @@ hr {
 
     font-family:"Lato Hairline", sans-serif;
     text-decoration: none;
+    color: black;
   }
 
   #contact {
@@ -120,6 +109,7 @@ hr {
 
     font-family:"Lato Hairline", sans-serif;
     text-decoration: none;
+    color: black;
   }
 
   #Title {
@@ -130,10 +120,9 @@ hr {
     font-size: 70px;
   }
 
-  .Main-bio {
-
+  .Main-contact {
     position: relative;
-    left: -150px;
+    left: 90px;
     font-family:"lato Hairline", sans-serif;
     font-size: 300%
   }
@@ -149,4 +138,3 @@ hr {
 
 
   }
-}
