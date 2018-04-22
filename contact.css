@@ -65,33 +65,6 @@ hr {
 
 }
 
-#Title {
-  position: relative;
-  font-family: "lato light", sans-serif;
-  top: 2%;
-  Left: 7%;
-  font-size: 30px;
-}
-
-.Main-contact {
-  position: relative;
-  left: 45px;
-  font-family:"lato Hairline", sans-serif;
-  font-size: 90%
-}
-
-.CV {
-  position: relative;
-  text-decoration: none;
-  color: black;
-  top: 2vh;
-  left: 30;
-  font-family: "Lato Hairline", sans-serif;
-  font-size: 75%;
-
-
-}
-
 @media (min-width: 768px) {
 
   .Firstname {
@@ -146,7 +119,6 @@ hr {
     Left: 7%;
     font-size: 70px;
   }
-
 
   .Main-contact {
     position: relative;
